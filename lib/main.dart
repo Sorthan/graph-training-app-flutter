@@ -16,7 +16,7 @@ void main() {
     getPages: [
       GetPage(name: '/home', page: () => const Home()),
       GetPage(name: '/sync', page: () => const Syncfusion()),
-      GetPage(name: '/fl', page: () => const Fl())
+      GetPage(name: '/fl', page: () => Fl())
     ],
   ));
 }
